@@ -2,3 +2,24 @@ canvas {
     border: 10px solid rgb(27, 87, 19);
     transform: translate(230px, 50px);
 }
+
+#Earthgravity {
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+}
+#Moongravity {
+    position: absolute;
+    top: 190px;
+    left: 1000px;
+}
+#Mercurygravity {
+    position: absolute;
+    top: 230px;
+    left: 1000px;
+
+}
+
+#buttonbox {
+    
+}

@@ -7,6 +7,9 @@ let y = 0;
 let vxl = 0;
 let vxr = 0;
 let vy = 0;
+var fly = -9;
+var fallspeed = 0.09;
+
 let grounded = false;
 let maxheight = false;
 function movement(){
@@ -38,6 +41,21 @@ movement()
 
 setInterval(function Gravity(){
     if (grounded === false){
-        vy = vy + 0.05
+        vy = vy + fallspeed
     }
 })
+
+function selectEarthgravity(){
+    fly = -9;
+    fallspeed = 0.09;
+}
+
+function selectMoongravity(){
+    fly = -3;
+    fallspeed = 0.01;
+}
+
+function selectMercurygravity(){
+    fly = -3.7;
+    fallspeed = 0.03;
+}
