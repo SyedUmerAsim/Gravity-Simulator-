@@ -18,5 +18,4 @@ function movement(){
     ctx.fillRect(x, y, 50, 50)
     requestAnimationFrame(movement)
 }
-
 movement()
