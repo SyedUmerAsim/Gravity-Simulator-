@@ -14,12 +14,13 @@ function movement(){
     x = x + vxr;
     y = y + vy;
     ctx.fillRect(x, y, 50, 50)
-    collision()
+    Xcollision()
     requestAnimationFrame(movement)
 }
-function collision(){
-    if (y >= canvas.height - 100){
-        y = canvas.height - 100
+function Xcollision(){
+    if (y >= canvas.height - 50){
+        y = canvas.height - 50
+        vy = 0
         grounded = true
     }
 }
