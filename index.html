@@ -7,12 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="canvas" width="500" height="550"></canvas>
+    <canvas id="canvas" width="500" height="600"></canvas>
+    <div id="statistics">Statistics</div>
+    <button id="dropfromtop" onclick="dropfromtop()">Drop from Top</button>
     <div id="buttonbox">
-    <button id="Earthgravity" onclick="selectEarthgravity()">Earth Gravity</button>
-    <button id="Moongravity" onclick="selectMoongravity()">Moon Gravity</button>
-    <button id="Mercurygravity" onclick="selectMercurygravity()">Mercury Gravity</button>
+        <button id="Earthgravity" onclick="selectEarthgravity()">Earth Gravity</button>
+        <button id="Moongravity" onclick="selectMoongravity()">Moon Gravity</button>
+        <button id="Mercurygravity" onclick="selectMercurygravity()">Mercury Gravity</button>
+    </div>
     
+    <div id="heightmeasure">
+        <div>---10 meters</div>
+        <div>---5 meters</div>
     </div>
     <script src="mainfunctioning.js"></script>
     <script src="deepfunctioning.js"></script>

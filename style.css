@@ -1,24 +1,47 @@
+body {
+    background-color: rgb(27, 87, 19);
+    overflow: visible;
+}
+
 canvas {
-    border: 10px solid rgb(27, 87, 19);
-    transform: translate(230px, 50px);
+    border: 10px dashed rgb(187, 189, 187);
+    transform: translate(230px, 10px);
 }
 
-#Earthgravity {
-    position: absolute;
-    top: 150px;
-    left: 1000px;
+#statistics {
+    color:aliceblue;
+    font-size: 35px;
+    transform: translate(35px, -600px);
 }
-#Moongravity {
+#heightmeasure {
+    color: rgb(90, 3, 3);
+    font-size: 25px;
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 267px;
     position: absolute;
-    top: 190px;
-    left: 1000px;
+    top: 12px;
+    left: 740px;
 }
-#Mercurygravity {
-    position: absolute;
-    top: 230px;
-    left: 1000px;
 
+#dropfromtop {
+    height: 100px;
+    width: auto;
+    border-radius: 100px;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
 }
+
+#buttonbox {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 30px;
+    position: absolute;
+    top: 200px;
+    left: 997px;
+}
+
 
 #buttonbox {
     

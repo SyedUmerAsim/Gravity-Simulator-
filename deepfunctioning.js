@@ -1,9 +1,5 @@
 console.log("deepfunctioning.js loaded")
 
-addEventListener("keydown", function(e){
-    if (e.code == "KeyW") vy = fly, grounded = false;
-})
-// ^^^ Up ^^^ //
 
 addEventListener("keydown", function(e){
     if (e.code == 'KeyD') vxr = 5; 
