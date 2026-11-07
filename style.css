@@ -7,11 +7,22 @@ canvas {
     border: 10px dashed rgb(187, 189, 187);
     transform: translate(230px, 10px);
 }
-
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
 #statistics {
     color:aliceblue;
     font-size: 35px;
-    transform: translate(35px, -600px);
+    transform: translate(30px, -600px);
+}
+#statinfo {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 40px;
+    color: aliceblue;   
+    font-size: 19px;
+    transform: translate(30px, -580px);
 }
 #heightmeasure {
     color: rgb(90, 3, 3);
@@ -43,6 +54,3 @@ canvas {
 }
 
 
-#buttonbox {
-    
-}

@@ -8,7 +8,7 @@ let vxl = 0;
 let vxr = 0;
 let vy = 0;
 var fly = -9; //use in future when wanna make jumping acceleration//
-var fallspeed = 0.098;
+var fallspeed = 0.198;
 
 let grounded = false;
 let maxheight = false;
@@ -52,13 +52,22 @@ function dropfromtop(){
     vy = 0
 }
 function selectEarthgravity(){
+    document.getElementById("stat_location").innerHTML =  '<span class="underline">Location:</span> Earth'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 9.8 m/s²'
     fallspeed = 0.198;
 }
-
 function selectMoongravity(){
-    fallspeed = 0.0162;
+    document.getElementById("stat_location").innerHTML = '<span class="underline">Location:</span> Moon'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 1.6 m/s²'
+    fallspeed = 0.022;
 }
-
-function selectMercurygravity(){
-    fallspeed = 0.03;
+function selectMercuryMarsgravity(){
+    document.getElementById("stat_location").innerHTML = "<span class=\"underline\">Location:</span> Mercury/Mars"
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 3.71 m/s²'
+    fallspeed = 0.05;
+}
+function selectVenusgravity(){
+    document.getElementById("stat_location").innerHTML = '<span class="underline">Location:</span> Venus'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 8.87 m/s²'
+    fallspeed = 0.172;
 }
