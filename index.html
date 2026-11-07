@@ -10,6 +10,8 @@
     <canvas id="canvas" width="500" height="600"></canvas>
     <div id="statistics">Statistics</div>
     <button id="dropfromtop" onclick="dropfromtop()">Drop from Top</button>
+
+    <button id="planetshow">Show/hide planets?</button>
     <div id="buttonbox">
         <button id="Earthgravity" onclick="selectEarthgravity()">Earth Gravity</button>
         <button id="Moongravity" onclick="selectMoongravity()">Moon Gravity</button>
@@ -20,6 +22,9 @@
         <div id="stat_location"><span class="underline">Location:</span>  Earth</div>
         <div id="stat_gravity"><span class="underline">Gravity:</span> 9.8 m/s²</div>
     </div>
+
+    <input type="checkbox" id="measurecheck">
+    <label for="measurecheck">see height measurements?</label>
     
     <div id="heightmeasure">
         <div>---10 meters</div>

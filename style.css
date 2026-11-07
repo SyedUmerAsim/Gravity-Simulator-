@@ -11,6 +11,21 @@ canvas {
     text-decoration: underline;
     text-decoration-thickness: 3px;
 }
+
+
+label[for="measurecheck"] {
+    color:aliceblue;
+    position:absolute;
+    top: 40px;
+    left: 780px;
+}
+#measurecheck {
+    position: absolute;
+    top: 35px;
+    left: 950px;
+    width: 21px;
+    height: 21px;
+}
 #statistics {
     color:aliceblue;
     font-size: 35px;
@@ -31,8 +46,12 @@ canvas {
     flex-direction: column;
     row-gap: 267px;
     position: absolute;
-    top: 12px;
+    top: 61px;
     left: 740px;
+    visibility: none;
+}
+#heightmeasure.show {
+    visibility: visible;
 }
 
 #dropfromtop {
@@ -40,17 +59,51 @@ canvas {
     width: auto;
     border-radius: 100px;
     position: absolute;
-    top: 50px;
-    left: 1000px;
+    top: 100px;
+    left: 870px;
+    background-color: rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
 }
 
 #buttonbox {
-    display: inline-flex;
+    display: none;
     flex-direction: column;
     row-gap: 30px;
     position: absolute;
-    top: 200px;
-    left: 997px;
+    top: 100px;
+    left: 1113px;
 }
-
-
+#buttonbox.show {
+    display: inline-flex;
+}
+#planetshow {
+    position: absolute;
+    top: 40px;
+    left: 1100px;
+    background-color: rgb(39, 92, 2);
+    font-size:18px;
+}
+#planetshow.active {
+    color: rgb(187, 189, 187);
+}
+#Earthgravity {
+    background-color: rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
+}
+#Moongravity {
+    background-color: rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
+}
+#MercuryMarsgravity {
+    background-color:rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
+}
+#Venusgravity {
+    background-color: rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
+}

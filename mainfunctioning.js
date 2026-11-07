@@ -2,7 +2,7 @@ console.log("mainfunctioning.js loaded")
 
 const canvas = document.getElementById("canvas")
 const ctx = canvas.getContext("2d")
-let x = 0;
+let x = 220;
 let y = 0;
 let vxl = 0;
 let vxr = 0;
@@ -71,3 +71,19 @@ function selectVenusgravity(){
     document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 8.87 m/s²'
     fallspeed = 0.172;
 }
+
+
+let planetshow = document.getElementById("planetshow")
+let buttonbox = document.getElementById("buttonbox")
+
+planetshow.addEventListener("click", function(){
+    buttonbox.classList.toggle("show");
+    planetshow.classList.toggle("active");
+})
+
+let measurecheck = document.getElementById("measurecheck")
+let heightmeasure = document.getElementById("heightmeasure")
+
+measurecheck.addEventListener("click", function(){
+    heightmeasure.classList.toggle("show");
+})
