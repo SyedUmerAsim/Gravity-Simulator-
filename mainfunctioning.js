@@ -63,15 +63,34 @@ function selectMoongravity(){
 }
 function selectMercuryMarsgravity(){
     document.getElementById("stat_location").innerHTML = "<span class=\"underline\">Location:</span> Mercury/Mars"
-    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 3.71 m/s²'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 3.72 +- 0.01 m/s²'
     fallspeed = 0.05;
 }
-function selectVenusgravity(){
-    document.getElementById("stat_location").innerHTML = '<span class="underline">Location:</span> Venus'
-    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 8.87 m/s²'
+function selectVenusUranusgravity(){
+    document.getElementById("stat_location").innerHTML = '<span class="underline">Location:</span> Venus/Uranus'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 8.69-8.87 m/s²'
     fallspeed = 0.172;
 }
-
+function selectJupitergravity(){
+    document.getElementById("stat_location").innerHTML = '<span class="underline">Location:</span> Jupiter'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 24.79 m/s²'
+    fallspeed = 0.61;
+}
+function selectSaturngravity(){
+    document.getElementById("stat_location").innerHTML = '<span class="underline">Location:</span> Saturn'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 10.53 m/s²(avg of whats at poles and sides)'
+    fallspeed = 0.29;
+}
+function selectNeptunegravity(){
+    document.getElementById("stat_location").innerHTML = '<span class="underline">Location:</span> Neptune'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 11.15 m/s²'
+    fallspeed = 0.36;
+}
+function selectSungravity(){
+    document.getElementById("stat_location").innerHTML = '<span class="underline">Location:</span> Sun'
+    document.getElementById("stat_gravity").innerHTML = '<span class="underline">Gravity:</span> 274 m/s²'
+    fallspeed = 6.6;
+}
 
 let planetshow = document.getElementById("planetshow")
 let buttonbox = document.getElementById("buttonbox")

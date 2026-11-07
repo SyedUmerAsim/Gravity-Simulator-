@@ -102,7 +102,27 @@ label[for="measurecheck"] {
     color:aliceblue;
     border: 5px dotted rgb(187, 189, 187);
 }
-#Venusgravity {
+#VenusUranusgravity {
+    background-color: rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
+}
+#Jupitergravity {
+    background-color: rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
+}
+#Saturngravity {
+    background-color: rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
+}
+#Neptunegravity {
+    background-color:rgb(27, 87, 19);
+    color:aliceblue;
+    border: 5px dotted rgb(187, 189, 187);
+}
+#Sungravity {
     background-color: rgb(27, 87, 19);
     color:aliceblue;
     border: 5px dotted rgb(187, 189, 187);

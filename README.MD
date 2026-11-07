@@ -1,0 +1,1 @@
+all planet gravities are as provided by a google search, except saturn. I found 2 values, at poles: 12.1 m/s², at equator about 8.96 m/s², so I took an average, which is equivilant to 10.53
