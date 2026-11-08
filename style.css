@@ -1,6 +1,6 @@
 body {
     background-color: rgb(27, 87, 19);
-    overflow: visible;
+    overflow: hidden;
 }
 
 canvas {
@@ -42,18 +42,23 @@ label[for="measurecheck"] {
 #heightmeasure {
     color: rgb(90, 3, 3);
     font-size: 25px;
-    display: inline-flex;
+    display: none;
     flex-direction: column;
     row-gap: 267px;
     position: absolute;
     top: 61px;
     left: 740px;
-    visibility: none;
 }
 #heightmeasure.show {
-    visibility: visible;
+    display: inline-flex;
 }
-
+#startmeters {
+    color: rgb(90, 3, 3);
+    font-size: 25px;
+    position: absolute;
+    top: 610px;
+    left: 740px;
+}
 #dropfromtop {
     height: 100px;
     width: auto;

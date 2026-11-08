@@ -40,6 +40,8 @@ function roofcollision(){
 
 movement()
 
+let stat_meters = document.getElementById("stat_meters")
+
 setInterval(function Gravity(){
     if (grounded === false){
         vy = vy + fallspeed
@@ -104,5 +106,10 @@ let measurecheck = document.getElementById("measurecheck")
 let heightmeasure = document.getElementById("heightmeasure")
 
 measurecheck.addEventListener("click", function(){
-    heightmeasure.classList.toggle("show");
+    if (measurecheck.checked) {
+        heightmeasure.style.display = "inline-flex";
+    }
+    else {
+        heightmeasure.style.display = "none";
+    }
 })
