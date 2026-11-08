@@ -1,6 +1,6 @@
 body {
     background-color: rgb(27, 87, 19);
-    overflow: hidden;
+    overflow: visible;
 }
 
 canvas {
@@ -131,4 +131,13 @@ label[for="measurecheck"] {
     background-color: rgb(27, 87, 19);
     color:aliceblue;
     border: 5px dotted rgb(187, 189, 187);
+}
+
+#shapeinventory {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 14px;
+    position: absolute;
+    top: 300px;
+    left: 70px;
 }

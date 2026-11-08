@@ -36,8 +36,6 @@ function roofcollision(){
         vy = 0
     }
 }
-
-
 movement()
 
 let stat_meters = document.getElementById("stat_meters")
