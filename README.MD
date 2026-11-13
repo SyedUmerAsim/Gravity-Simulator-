@@ -5,6 +5,9 @@ a simplistic, text-based gravity simulator, which demonstrates the pull of gravi
 ## **Design**
 I wanted to make it look as similar to a chalkboard as possbile, hence the green background, and then using shades of white for text and shapes to make sure nothing goes "out of place".
 
+## **How to use**
+Visit the website by clicking the link below description on the github repository, or visit:                                       https://syedumerasim.github.io/Gravity-Simulator-/
+
 ## **How it works**
 You start off on Location: Earth, Gravity: 9.8 m/s², use the 'Drop from Top' button(dotted circle):
 ![Drop from top dotted circle](image.png)
